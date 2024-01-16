@@ -5,3 +5,4 @@ Recurrent Neural Netowkrs (RNNs) and the application of the time series and the 
 
 Inference:
 From the above I have predicted the mean sqaured error and the actual and the 10 day predictions. From the above, just based of the MSE value, it can be clearly seen that the simple RNN is performing the best. It has the least mean squared error value of 0.38. As we start adding layers to it with LSTM, GRU etc, the error seems to increase. However it decreases with the conv1d but still out of all the models, the simple RNN is giving the best results so far but regardless, all the models are performing their best at predicting the stock prices with a very low mean sqaured error.
+
